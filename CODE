@@ -2,8 +2,7 @@
 
 {
 "Title" : "Firebase Security Rules",
-"Code" : "
-1. No Security:
+"Code" : "1. No Security:
 
 {
   "rules": {
@@ -76,7 +75,7 @@ You should also make sure that the keys of user data should be authenticated UID
  
 Realtime Database: https://firebase.google.com/docs/database/android/start
 Firebase Storage: https://firebase.google.com/docs/storage/android/start
-Other: https://gist.github.com/codediodeio/6dbce1305b9556c2136492522e2100f6 "
+Other: https://gist.github.com/codediodeio/6dbce1305b9556c2136492522e2100f6"
 }
 
 ]
