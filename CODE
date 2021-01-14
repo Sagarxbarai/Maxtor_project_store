@@ -1,6 +1,15 @@
 [
 
 {
+"Title" : "ActionBar Show",
+"Code" : "//code 1
+ getActionBar().show();
+
+//code 2
+ getSupportActionBar().show();"
+},
+
+{
 "Title" : "Close App(Close all activity",
 "Code" : "finishAffinity();"
 }
