@@ -1,8 +1,82 @@
 [
 
 {
-"Title" : "ok test",
-"Code" : "ok test "
+"Title" : "Firebase Security Rules",
+"Code" : "
+1. No Security:
+
+{
+  "rules": {
+    ".read": true,
+    ".write": true
+  }
+}
+}
+2. Close server (No access):
+
+{
+  "rules": {
+    ".read": false,
+    ".write": false
+  }
+}
+3. Only Authenticated Users can read & write the data:
+
+{
+  "rules": {
+    ".read": "auth != null",
+    ".write": "auth != null"
+  }
+}
+4. Only user can read & write his own data:
+
+{
+  "rules": {
+    "posts": {
+       "$uid": {
+         ".read": "$uid === auth.uid",
+         ".write": "$uid === auth.uid"
+       }
+     }
+   }
+}
+
+You should also make sure that the keys of user data should be authenticated UID otherwise it won't work.
+
+5. Only Admins can read & write the data:
+
+{
+ "rules":{
+   "announcements":{
+    ".read": true,
+    ".write": "root.child('badges/admin/' + auth.uid).exists()"
+        }
+    }
+}
+
+
+
+6. Only Particular User can write:
+
+{
+ "rules":{
+    ".read": true,
+    ".write": "auth.uid == 'pasteYourUID' "
+      }
+}
+
+
+7.  Only Users having verified emails can write:
+
+{
+"rules":{
+    ".read": true,
+    ".write": "auth.token.email_verified === true"
+}
+ 
+Realtime Database: https://firebase.google.com/docs/database/android/start
+Firebase Storage: https://firebase.google.com/docs/storage/android/start
+Other: https://gist.github.com/codediodeio/6dbce1305b9556c2136492522e2100f6 "
 }
 
 ]
