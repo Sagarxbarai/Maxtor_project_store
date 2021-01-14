@@ -3,4 +3,6 @@
 {
 "Title" : "Close App(Close all activity",
 "Code" : "finishAffinity();"
+}
+
 ]
