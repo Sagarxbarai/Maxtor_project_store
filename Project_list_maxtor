@@ -5,15 +5,24 @@
 "TITLE" : "Skitc Cloud",
 "Download_url" : "https://github.com/Sagarxbarai/Maxtor_project_file.zip/raw/main/Cloud%20Store%20-%20680.zip",
 "icon" : "https://github.com/Sagarxbarai/Maxtor_project_store_icon/raw/main/no-internet.png",
-"Zip_name" : "Cloud Store - 680.zip"
-},
+"Zip_name" : "Cloud Store - 680.zip",
+"img1" : "",
+"img2" : "",
+"img3" : "",
+"Project_details" : ""
 
+},
 
 {
 "TITLE" : "Skitc Cloud",
 "Download_url" : "https://github.com/Sagarxbarai/Maxtor_project_file.zip/raw/main/Cloud%20Store%20-%20680.zip",
 "icon" : "https://github.com/Sagarxbarai/Maxtor_project_store_icon/raw/main/no-internet.png",
-"Zip_name" : "Cloud Store - 680.zip"
+"Zip_name" : "Cloud Store - 680.zip",
+"img1" : "",
+"img2" : "",
+"img3" : "",
+"Project_details" : ""
+
 }
 
 ]
