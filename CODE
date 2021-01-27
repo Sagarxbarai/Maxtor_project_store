@@ -1,6 +1,15 @@
 [
 
 {
+"Title" : "Open app",
+"Code" : "Intent launchIntent = getPackageManager().getLaunchIntentForPackage("com.package.address"); 
+if (launchIntent != null {
+startActivity(launchIntent);
+}"
+},
+
+
+{
 "Title" : "ActionBar Show",
 "Code" : "//code 1
  getActionBar().show();
