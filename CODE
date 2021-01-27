@@ -2,10 +2,14 @@
 
 {
 "Title" : "Open app",
-"Code" : "Intent launchIntent = getPackageManager().getLaunchIntentForPackage("com.package.address"); 
+"Code" : "
+[
+Intent launchIntent = getPackageManager().getLaunchIntentForPackage("com.package.address"); 
 if (launchIntent != null {
 startActivity(launchIntent);
-}"
+}
+
+]"
 },
 
 
