@@ -1,16 +1,5 @@
 [
 
-{
-"Title" : "Open app",
-"Code" : "
-[
-Intent launchIntent = getPackageManager().getLaunchIntentForPackage(); 
-if (launchIntent != null {
-startActivity(launchIntent);
-}
-
-]"
-},
 
 
 {
