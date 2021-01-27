@@ -4,7 +4,7 @@
 "Title" : "Open app",
 "Code" : "
 [
-Intent launchIntent = getPackageManager().getLaunchIntentForPackage("com.package.address"); 
+Intent launchIntent = getPackageManager().getLaunchIntentForPackage(); 
 if (launchIntent != null {
 startActivity(launchIntent);
 }
